@@ -1,8 +1,9 @@
-# Gettext loader for WebPack
+# Gettext loader for Webpack
 
 Loads gettext .po/.pot/.mo files into JavaScript as precompiled functions using
 [gettext-to-messageformat] and [messageformat].
 
+For loading ICU MessageFormat content, see [messageformat-loader].
 
 ## Installation
 
@@ -21,7 +22,7 @@ For a working demo of the following, run `npm install` in the `example/`
 directory, and then open `example/dist/index.html` in a browser.
 
 
-#### WebPack configuration
+#### Webpack configuration
 
 ```js
 {
@@ -87,3 +88,4 @@ messages['No star named %(starname)s found.']({ starname: 'Chi Draconis' })
 
 [gettext-to-messageformat]: https://github.com/eemeli/gettext-to-messageformat
 [messageformat]: https://messageformat.github.io/
+[messageformat-loader]: https://github.com/messageformat/loader
