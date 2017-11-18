@@ -28,23 +28,23 @@ yarn add messageformat-po-loader
     defaultCharset: null,
     defaultLocale: 'en',
     forceContext: false,
-    pluralCategories: null,
+    pluralFunction: null,
     verbose: false
   }
 }
 ```
 
 The default option values are shown, and are not required. Most options are
-passed on to [gettext-to-messageformat]; `defaultLocale` is the fallback used by
-[messageformat] if not set in the .po file `language` header comment, and
-`biDiSupport` is a messageformat option.
+passed on to [gettext-to-messageformat] (see there for their documentation);
+`defaultLocale` is the fallback used by [messageformat] if not set in the .po
+file `language` header comment, and `biDiSupport` enables bi-directional text
+support in messageformat.
 
 
 #### messages.po
 
-```po
+```pot
 # Examples from http://pology.nedohodnik.net/doc/user/en_US/ch-poformat.html
-# Note that the given plural-form is incomplete
 msgid ""
 msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
