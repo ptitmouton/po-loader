@@ -19,6 +19,6 @@
   "dependencies": {
     "gettext-to-messageformat": "^0.3.0",
     "loader-utils": "^1.1.0",
-    "messageformat": "^1.0.2"
+    "messageformat": "^1.1.0"
   }
 }
