@@ -17,6 +17,10 @@ yarn add messageformat-po-loader
 
 ## Usage
 
+For a working demo of the following, run `npm install` in the `example/`
+directory, and then open `example/dist/index.html` in a browser.
+
+
 #### WebPack configuration
 
 ```js

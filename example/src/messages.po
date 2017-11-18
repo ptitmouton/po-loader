@@ -1,0 +1,21 @@
+# Examples from http://pology.nedohodnik.net/doc/user/en_US/ch-poformat.html
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Time: %1 second"
+msgid_plural "Time: %1 seconds"
+msgstr[0] "Czas: %1 sekunda"
+msgstr[1] "Czas: %1 sekundy"
+msgstr[2] "Czas: %1 sekund"
+
+msgid "%1 took %2 ms to complete."
+msgstr "Trebalo je %2 ms da se %1 završi."
+
+msgid "%s took %d ms to complete."
+msgstr "Trebalo je %2$d ms da se %1$s završi."
+
+msgid "No star named %(starname)s found."
+msgstr "Nema zvezde po imenu %(starname)s."

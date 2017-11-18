@@ -1,0 +1,18 @@
+{
+  "name": "messageformat-po-loader-example",
+  "version": "0.1.0",
+  "description": "Minimal example for messageformat-po-loader",
+  "scripts": {
+    "build": "webpack",
+    "preinstall": "cd .. && npm link",
+    "postinstall": "npm link messageformat-po-loader",
+    "prepare": "npm run build"
+  },
+  "main": "src/index.js",
+  "repository": "https://github.com/eemeli/messageformat-po-loader",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  }
+}
