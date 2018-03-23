@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "messageformat": "^2.0.0-beta.4",
-    "messageformat-po-loader": "^0.2.0",
+    "messageformat-po-loader": "^0.3.0",
     "webpack": "^3.8.1"
   }
 }
