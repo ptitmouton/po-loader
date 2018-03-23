@@ -8,11 +8,7 @@ For loading ICU MessageFormat content, see [messageformat-loader].
 ## Installation
 
 ```sh
-npm install --save messageformat-po-loader
-```
-or
-```sh
-yarn add messageformat-po-loader
+npm install messageformat messageformat-po-loader
 ```
 
 
